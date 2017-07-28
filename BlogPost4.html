@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<link style = "text/css" ref = "stylesheet" href = "BlogFormatting">
+	<title>Christopher Bianchi's Blog</title>
+</head>
+
+
+<body>
+	<div id="heading">switch VS. if/else</div>
+
+	<div id="body">
+		<p>
+		Switch and if/else perform similar functions however the switch is usually a much 
+		more concise and efficient way to run multiple if/else statements. However, each 
+		has unique advantages and disadvantages, and is optimal in different situations.
+		</p>
+	
+		<h4>if/else</h4>
+		<p>
+		We use if/else statements if we want our code to perform an action if the 
+		condition is true and if the condition is false.
+		<br>
+		<br>Example using if/else:
+		<br>if (answer == correctAnswer) {
+		<br>	score += 10;
+		<br>	System.out.println(“That’s right. You get 10 points.”);
+		<br>} else  {
+		<br>	score -=5;
+		<br>	System.out.println(“Sorry, that’s wrong. You lose 5 points.”); 
+		<br>}
+		<br>
+		<br>When to use if/else:
+				<ul>Simple comparisons</ul>
+				<ul>If there aren't a lot of compares for a condition in your program</ul>
+		</p>
+	
+	
+	
+		<h4>switch</h4>
+		<p>
+		In a switch statement the first line specifies the variable that is being tested. 
+		We then form our block of code using the curly brackets { }, with multiple cases. 
+		Then each case line checks the test variable in the switch statement against a 
+		specific value. Then when one of these values being checked in the case statement 
+		matches the variable being tested, the code then continues to run until it reaches 
+		a “break” statement, or it get’s to a default statement and then reaches the 
+		“break” statement. The switch statement works faster than if/else.
+		<br>
+		<br>Example using switch:
+		<br>switch (grade) {
+			<br>case = ‘A’;
+			<br>System.out.println(“You got an A! Awesome!”);
+			<br>break;
+			<br>case = ‘B’;
+			<br>System.out.println (“You got a B! Beautiful!”);
+			<br>Default:
+			<br>System.out.println (“You got an F. You’ll do well in Congress!”);
+		<br>}
+		<br>
+		<br>When to use switch:
+			<ul>Complex comparisons</ul>
+			<ul>If there's a lot of compares for a condition in your program</ul>
+		</p>
+	
+	
+	
+		<h4>In Conclusion</h4>
+		<p>
+		Switch and if/else perform similar functions however the switch is usually a much 
+		more concise and efficient way to run multiple if/else statements. However, each 
+		has unique advantages and disadvantages, and is optimal in different situations. 
+		It is up to the programmer to decide which is more appropriate for the program’s 
+		needs. </p>
+
+</body>
